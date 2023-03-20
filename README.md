@@ -28,14 +28,12 @@
 Add the following to your Cargo.toml:
 
 ```toml
-Copy code
 [dependencies]
 algo_ds = "0.1.0"
 ```
 Then, you can use the data structures and algorithms in your Rust code:
 
 ```rust
-Copy code
 use algo_ds::data_structures::linked_list::LinkedList;
 use algo_ds::algorithms::sorting::insertion_sort;
 
